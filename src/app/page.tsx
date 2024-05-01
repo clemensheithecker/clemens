@@ -2,7 +2,7 @@ const HomePage = () => (
   <main className="flex min-h-screen justify-center px-6 py-24 sm:px-10 sm:py-28 md:px-24">
     <div className="w-full max-w-xl flex-col space-y-16 sm:space-y-20">
       <h1 className="text-sm font-normal lg:text-base">
-        <strong className="text-base font-semibold lg:text-lg">
+        <strong className="text-base font-serif font-bold lg:text-lg">
           Clemens Heithecker
         </strong>
         <br />
