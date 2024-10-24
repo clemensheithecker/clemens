@@ -1,6 +1,7 @@
 import { Noto_Serif } from "next/font/google";
 
 import "./globals.css";
+import { ReactNode } from "react";
 
 export const metadata = {
   title: "Clemens Heithecker",
@@ -13,10 +14,12 @@ const notoSerif = Noto_Serif({
   variable: "--font-noto-sans",
 });
 
-const RootLayout = ({ children }: { children: React.ReactNode }) => (
-  <html lang="en" className={notoSerif.variable}>
-    <body>{children}</body>
-  </html>
-);
-
-export default RootLayout;
+export default function RootLayout({
+  children,
+}: Readonly<{ children: ReactNode }>) {
+  return (
+    <html lang="en">
+      <body className={`${notoSerif.variable} antialiased`}>{children}</body>
+    </html>
+  );
+}
