@@ -14,7 +14,7 @@ export default function Home() {
           people. At{" "}
           <a
             href="https://ledgy.com/"
-            className="text- text-slate-500 hover:underline hover:underline-offset-2"
+            className="underline underline-offset-2 hover:text-neutral-500"
           >
             Ledgy
           </a>
@@ -29,7 +29,7 @@ export default function Home() {
             My key projects at{" "}
             <a
               href="https://ledgy.com/"
-              className="text- text-slate-500 hover:underline hover:underline-offset-2"
+              className="underline underline-offset-2 hover:text-neutral-500"
             >
               Ledgy
             </a>{" "}
@@ -56,7 +56,7 @@ export default function Home() {
             at{" "}
             <a
               href="https://www.tilburguniversity.edu/"
-              className="text-slate-500 hover:underline hover:underline-offset-2"
+              className="underline underline-offset-2 hover:text-neutral-500"
             >
               Tilburg University
             </a>{" "}
