@@ -14,7 +14,7 @@ export default function Home() {
           people. At{" "}
           <a
             href="https://ledgy.com/"
-            className="underline underline-offset-2 hover:text-neutral-500"
+            className="underline underline-offset-2 hover:text-neutral-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600"
           >
             Ledgy
           </a>
@@ -29,7 +29,7 @@ export default function Home() {
             My key projects at{" "}
             <a
               href="https://ledgy.com/"
-              className="underline underline-offset-2 hover:text-neutral-500"
+              className="underline underline-offset-2 hover:text-neutral-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600"
             >
               Ledgy
             </a>{" "}
@@ -56,7 +56,7 @@ export default function Home() {
             at{" "}
             <a
               href="https://www.tilburguniversity.edu/"
-              className="underline underline-offset-2 hover:text-neutral-500"
+              className="underline underline-offset-2 hover:text-neutral-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600"
             >
               Tilburg University
             </a>{" "}
@@ -67,7 +67,7 @@ export default function Home() {
         <div className="flex justify-center gap-x-10">
           <a
             href="https://www.linkedin.com/in/clemensheithecker/"
-            className="flex items-center space-x-2 text-sm lg:text-base"
+            className="flex items-center space-x-2 text-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600 lg:text-base"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -82,7 +82,7 @@ export default function Home() {
           </a>
           <a
             href="https://www.github.com/clemensheithecker/"
-            className="flex items-center space-x-2 text-sm lg:text-base"
+            className="flex items-center space-x-2 text-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600 lg:text-base"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
